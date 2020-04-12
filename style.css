@@ -37,6 +37,9 @@ body{
 }
 #list{
     margin-top: 5%;
+    overflow: auto;
+    height: 430px;
+    overscroll-behavior: none;
 }
 #list div{
     display: flex;
